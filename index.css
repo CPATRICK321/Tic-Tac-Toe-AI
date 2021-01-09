@@ -1,0 +1,59 @@
+body {
+  background-color: #a60a27;
+  font-family: fantasy;
+  color: #40010d;
+}
+
+.choose {
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 30px;
+}
+
+#options {
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #40010d;
+  margin-bottom: 5px;
+}
+
+button {
+    border-style: solid;
+  margin: auto;
+  border-width: 10px;
+  background-color: #a60a27;
+  border-color: #40010d;
+  color: #40010d;
+  font-size: 25px;
+  font-family: fantasy;
+  display: block;
+  border-radius: 10px;
+}
+
+#board {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+table {
+  margin: auto;
+  position: sticky;
+  height: 300px;
+  width: 300px;
+}
+
+td {
+  border: 10px solid #40010d;
+  width: 83px;
+  height: 83px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 50px;
+}
