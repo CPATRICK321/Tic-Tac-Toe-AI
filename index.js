@@ -28,27 +28,9 @@ function HumanMove(square) {
       removeElement(allSquares, parseInt(square.id));
       x ? (square.innerHTML = "x") : (square.innerHTML = "o");
       p1Array.push(parseInt(square.id));
-      // winDataStructureUpdate(square.id);
       BotMove();
     }
     CheckTie();
-  }
-}
-
-function winDataStructureUpdate(id){
-  var coord = idToCoord[id];
-
-  //update the col
-  cols[coord[1]] += (x ? 1 : -1);
-  //update the row
-  rows[coord[0]] += (x ? 1 : -1);
-  //update the diag(s)
-  if (coord[0] == coord[1]){
-    //top left to bottom right
-    diagonal1 += (x ? 1 : -1);
-  }
-  if(coord[0]+coord[1] == 2){
-    diagonal2 += (x ? 1 : -1);
   }
 }
 
